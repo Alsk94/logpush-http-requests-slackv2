@@ -72,9 +72,8 @@ export default {
 					Accept: "application/json",
 				},
 			});
-			console.log(JSON.stringify(await resp.json()))
 		}))
-
+console.log(responses)
 		async function gatherResponse(response) {
 			const { headers } = response;
 			const contentType = headers.get('content-type') || '';
