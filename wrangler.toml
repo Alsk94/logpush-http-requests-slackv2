@@ -1,6 +1,6 @@
 name = "logpush-http-requests-slackv2"
 main = "src/index.js"
-compatibility_date = "2022-11-06"
+compatibility_date = "2025-05-05"
 
 [vars]
 # The necessary secrets are:
