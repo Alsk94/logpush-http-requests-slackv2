@@ -62,7 +62,7 @@ export default {
 			//console.log(`payload === ${JSON.stringify(payload, null, 2)}`)
 			const botAccessToken = env.SLACK_BOT_ACCESS_TOKEN;
 			//console.log(`botAccessToken === ${botAccessToken}`)
-			fetch('https://slack.com/api/chat.postMessage', {
+			const resp=fetch('https://slack.com/api/chat.postMessage', {
 				method: "POST",
 				body: JSON.stringify(payload),
 				headers: {
@@ -72,6 +72,7 @@ export default {
 					Accept: "application/json",
 				},
 			});
+			console.log(JSON.stringify(await resp.json()))
 		}))
 
 		async function gatherResponse(response) {
