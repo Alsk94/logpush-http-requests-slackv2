@@ -5,7 +5,7 @@ compatibility_date = "2025-05-05"
 [vars]
 # The necessary secrets are:
 SLACK_BOT_ACCESS_TOKEN="xoxb-8850946929191-8868783362004-qYkqIu4z9T9cVCUJ0Hnw2oML"
-SLACK_BOT_ACCESS_CHANNEL="all-cf-test"
+SLACK_BOT_ACCESS_CHANNEL="C08R0TV7VQX"
 # Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
 # wrangler.toml (wrangler v3.88.0^)
 [observability.logs]
