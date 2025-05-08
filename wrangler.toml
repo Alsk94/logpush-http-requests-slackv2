@@ -4,6 +4,6 @@ compatibility_date = "2022-11-06"
 
 [vars]
 # The necessary secrets are:
-# - SLACK_BOT_ACCESS_TOKEN
-# - SLACK_BOT_ACCESS_CHANNEL
+SLACK_BOT_ACCESS_TOKEN="xoxb-8850946929191-8868783362004-qYkqIu4z9T9cVCUJ0Hnw2oML"
+SLACK_BOT_ACCESS_CHANNEL="https://hooks.slack.com/services/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"
 # Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
